@@ -1,19 +1,7 @@
 <template>
   <div class="layout">
     <div class="body-wrap boxed-container">
-      <header class="site-header">
-        <div class="container">
-          <div class="site-header-inner">
-            <div class="brand header-brand">
-              <h1 class="m-0">
-                <a href="#">
-                  <img src="dist/images/logo.svg" alt="Blue logo" />
-                </a>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header></Header>
 
       <main>
         <section class="hero">
@@ -478,3 +466,15 @@ query {
 
 <style>
 </style>
+
+<script>
+import Header from "~/components/Default/Header";
+export default {
+  metaInfo: {
+    script: [{ src: "/js/main.min.js" }]
+  },
+  components: {
+    Header
+  }
+};
+</script>
