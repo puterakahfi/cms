@@ -4,44 +4,27 @@
       <Header></Header>
 
       <main>
-        <section class="hero">
-          <div class="hero-left-decoration is-revealing"></div>
-          <div class="hero-right-decoration is-revealing"></div>
-          <div class="container">
-            <div class="hero-inner">
-              <div class="hero-copy">
-                <h1 class="hero-title mt-0 is-revealing">Landing template for startups</h1>
-                <p
-                  class="hero-paragraph is-revealing"
-                >Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-                <p class="hero-cta mb-0 is-revealing">
-                  <a class="button button-primary button-shadow" href="#">Get started free</a>
-                </p>
-              </div>
-              <div class="hero-illustration"></div>
-            </div>
-          </div>
-        </section>
-
+        <Hero></Hero>
         <section class="clients section">
           <div class="container">
             <div class="clients-inner section-inner has-top-divider">
               <div class="container-sm">
                 <ul class="list-reset mb-0">
                   <li class="is-revealing">
-                    <img src="dist/images/facebook-logo.svg" alt="Facebook logo" />
+                    <img src="https://image.flaticon.com/icons/png/128/1183/1183622.png" alt="Facebook logo" />
                   </li>
-                  <li class="is-revealing">
-                    <img src="dist/images/tinder-logo.svg" alt="Tinder logo" />
+                
+                   <li class="is-revealing">
+                    <img src="https://image.flaticon.com/icons/png/128/1183/1183622.png" alt="Facebook logo" />
                   </li>
-                  <li class="is-revealing">
-                    <img src="dist/images/airbnb-logo.svg" alt="Airbnb logo" />
+                     <li class="is-revealing">
+                    <img src="https://image.flaticon.com/icons/png/128/1183/1183622.png" alt="Facebook logo" />
                   </li>
-                  <li class="is-revealing">
-                    <img src="dist/images/microsoft-logo.svg" alt="Microsoft logo" />
+                     <li class="is-revealing">
+                    <img src="https://image.flaticon.com/icons/png/128/1183/1183622.png" alt="Facebook logo" />
                   </li>
-                  <li class="is-revealing">
-                    <img src="dist/images/hubspot-logo.svg" alt="Hubspot logo" />
+                     <li class="is-revealing">
+                    <img src="https://image.flaticon.com/icons/png/128/1183/1183622.png" alt="Facebook logo" />
                   </li>
                 </ul>
               </div>
@@ -469,12 +452,14 @@ query {
 
 <script>
 import Header from "~/components/Default/Header";
+import Hero from "~/components/Default/Hero";
 export default {
   metaInfo: {
     script: [{ src: "/js/main.min.js" }]
   },
   components: {
-    Header
+    Header,
+    Hero
   }
 };
 </script>

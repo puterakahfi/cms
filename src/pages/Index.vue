@@ -7,7 +7,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Welcome!'
+    title: 'Gridsome Course Landingpage!'
   }
 }
 </script>
