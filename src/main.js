@@ -4,9 +4,12 @@
 import DefaultLayout from '~/layouts/Default.vue'
 
 import '~/assets/css/styles.scss'
+import Vuex from 'vuex'
+import store from '~/store';
 
-
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient,  appOptions  }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  appOptions.store = store;
+
 }

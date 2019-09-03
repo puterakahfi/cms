@@ -5,7 +5,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Gridsome Course Landingpage!"
+    title: "Fullstack developer class"
   }
 };
 </script>
