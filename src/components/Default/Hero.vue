@@ -1,16 +1,25 @@
 <template>
-  <section class="hero">
-    <div class="hero-left-decoration is-revealing"></div>
-    <div class="hero-right-decoration is-revealing"></div>
+  <section class="hero is-revealing">
+    <div class="hero-right-decoration is-hide"></div>
     <div class="container">
       <div class="hero-inner">
         <div class="hero-copy">
-          <h1 class="hero-title mt-0 is-revealing">Kelas Vue JS Ecosystem Batch Pertama</h1>
-          <p
-            class="hero-paragraph is-revealing"
-          >Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-          <p class="hero-cta mb-0 is-revealing">
-            <a class="button button-primary button-shadow bg-blue-700	" href="#">Daftar Sekarang</a>
+          <h1
+            class="hero-title mt-0 is-revealing text-5xl leading-none"
+          >Menjadi fullstack web developer</h1>
+          <p class="hero-paragraph is-revealing text-xs text-gray-700">
+            A full stack web developer is a person who can develop both client and server software.
+            In addition to mastering HTML and CSS, he/she also knows how to:
+            Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+            Program a server (like using PHP, ASP, Python, or Node)
+            Program a database (like using SQL, SQLite, or MongoDB)
+          </p>
+          <p class="is-revealing flex m-0 p-0">
+            <a
+              class="button button-primary button-shadow bg-blue-700 mx-2 ml-0"
+              href="#"
+            >Daftar Sekarang</a>
+            <a class="button button-secondary button-shadow bg-blue-700 mx-2" href="#">Demo Aplikasi</a>
           </p>
         </div>
         <div class="hero-illustration"></div>

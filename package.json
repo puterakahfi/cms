@@ -4,9 +4,12 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "gridsome build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "gridsome": "^0.6.0",
     "gridsome-plugin-tailwindcss": "^2.2.22",
     "node-sass": "^4.12.0",

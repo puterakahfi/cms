@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Course landingpage',
+  pathPrefix: '/gridsome-course-landingpage',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'

@@ -1,15 +1,13 @@
 <template>
-  <Layout>
-    
-  </Layout>
+  <Layout ></Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Gridsome Course Landingpage!'
+    title: "Gridsome Course Landingpage!"
   }
-}
+};
 </script>
 
 <style>
