@@ -1,12 +1,17 @@
 <template>
   <div class="layout">
     <div class="body-wrap is-revealing">
+
       <Navbar/>
       <Header :isActive="false"></Header>
       <main>
+
+       
+    
         <Hero />
         <List />
-        <Features />
+        <slot />
+        <LatestClass />
         <Accordion />
         <Testimonials />
         <Pricing :isActive="true" />
@@ -16,7 +21,6 @@
       <Footer />
     </div>
 
-    <slot />
   </div>
 </template>
 
@@ -34,7 +38,7 @@ query {
 <script>
 import Header from "~/components/Default/Header";
 import Hero from "~/components/Default/Hero";
-import Features from "~/components/Default/Features";
+import LatestClass from "~/components/Default/LatestClass";
 import List from "~/components/Default/List";
 import Testimonials from "~/components/Default/Testimonials";
 import Accordion from "~/components/Default/Accordion";
@@ -56,7 +60,7 @@ export default {
     Header,
     Hero,
     List,
-    Features,
+    LatestClass,
     Testimonials,
     Accordion,
     Faq,

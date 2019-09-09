@@ -5,8 +5,8 @@
         <div class="features-header text-center">
           <div class="container-sm">
             <h2 class="section-title mt-0">Kelas Terbaru</h2>
-            {{ allTodos }}
-            <p class="section-paragraph mb-0">Materi apa saja yang di pelajari di kelas ini</p>
+        
+            <p class="section-paragraph mb-0">Kelas terbaru </p>
           </div>
         </div>
         <div class="flex flex-wrap justify-center">
@@ -73,7 +73,6 @@ export default {
   computed: mapGetters(["allTodos"]),
   created() {
 
-      this.fetchTodos();
   }
 };
 </script>
