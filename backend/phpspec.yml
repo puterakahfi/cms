@@ -1,0 +1,33 @@
+suites:
+    default:
+        namespace: App
+        psr4_prefix: App
+    
+    presentation:
+        namespace: App\Presentation
+        psr4_prefix: App\Presentation
+        spec_path: src/Presentation
+        src_path: src/Presentation
+        spec_prefix: Spec
+
+            
+    application:
+        namespace: App\Application
+        psr4_prefix: App\Application
+        spec_path: src/Application
+        src_path: src/Application
+        spec_prefix: Spec
+    
+    domain:
+        namespace: App\Domain
+        psr4_prefix: App\Domain
+        spec_path: src/Domain
+        src_path: src/Domain
+        spec_prefix: Spec
+
+    infrastructure:
+        namespace: App\Infrastructure
+        psr4_prefix: App\Infrastructure
+        spec_path: src/Infrastructure
+        src_path: src/Infrastructure
+        spec_prefix: Spec
