@@ -1,0 +1,34 @@
+paths:
+  - ./src
+  
+exclude_files:
+  - .*test.*
+
+layers:
+  - name: Presentation
+    collectors:
+      - type: directory
+        regex: src/Presentation/.*
+  - name: Application
+    collectors:
+      - type: directory
+        regex: src/Application/.*
+  - name: Domain
+    collectors:
+      - type: directory
+        regex: src/Domain/.*
+  - name: Infrastructure
+    collectors:
+      - type: directory
+        regex: src/Infrastructure/.*
+
+ruleset:
+  Presentation:
+    - Application
+  Application:
+    - Infrastructure
+    - Domain
+  Infrastructure:
+    - Domain
+  Domain:
+    
