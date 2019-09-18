@@ -53,4 +53,9 @@ const menuData = [{
 },
 
 
+{
+    "label": "Screencast",
+    "link": "/jadwal"
+},
+
 ]

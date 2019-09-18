@@ -29,11 +29,11 @@
             <a
               href="#"
               class="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
-            >Sign in</a>
+            >Login</a>
             <a
               href="#"
               class="text-gray-800 text-sm font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600"
-            >Sign up</a>
+            >Daftar</a>
           </div>
 
           <div class="sm:hidden cursor-pointer">
